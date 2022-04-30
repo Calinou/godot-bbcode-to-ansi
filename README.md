@@ -10,8 +10,8 @@ Not functional on Windows 10 and later yet, as Godot doesn't enable virtual term
 
 - Bold/italic/underline/strikethrough (`[b]`, `[i]`, `[u]`, `[s]`).
 - `[code]` tag (doesn't change font, but appears as "faint" in supported terminals).
-- `[center]`/`[right]` alignment (emulated using tab characters).
-- `[indent]` tag (emulated using 4 spadces).
+- `[center]`/`[right]` alignment (doesn't take terminal width into account – emulated using tab characters).
+- `[indent]` tag (emulated using 4 spaces).
 - 16-color and 256-color ANSI codes for `[color]` (text color) and `[bgcolor]` (background color, used for highlighting text).
   - **Only named colors such as `red`, `green`, `blue` are supported.**
   - True color ANSI codes could be supported, but terminal support for them is not universal due to macOS's Terminal.app not supporting truecolor.
