@@ -40,6 +40,10 @@ left [center]text[/center] [right]right[/right]
 [bgcolor=white]White Background[/bgcolor]
 [bgcolor=orange]Orange Background[/bgcolor]
 
+[fgcolor=cyan]Cyan Foreground[/fgcolor]
+[fgcolor=white]White Foreground[/fgcolor]
+[fgcolor=orange]Orange Foreground[/fgcolor]
+
 [color=red]This is [b]bold[/b], [i]italic[/i], [u]underline[/u] and [s]strikethrough[/s] within [bgcolor=white]red[/bgcolor] text.[/color]
 
 [i]italic [u]underline [s]strikethrough[/s][/u][/i] default
