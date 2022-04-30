@@ -1,0 +1,50 @@
+[gd_scene load_steps=2 format=3 uid="uid://do5gveqeifsva"]
+
+[ext_resource type="Script" path="res://test.gd" id="1_8fy7j"]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( "1_8fy7j" )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = 16.0
+offset_right = -24.0
+offset_bottom = -24.0
+grow_horizontal = 2
+grow_vertical = 2
+bbcode_enabled = true
+text = "[b]Hello[/b] world! [code]Some code[/code]
+
+left [center]text[/center] [right]right[/right]
+
+[color=black]Black[/color]
+[color=red]Red[/color]
+[color=green]Green[/color]
+[color=yellow]Yellow[/color]
+[color=blue]Blue[/color]
+[color=magenta]Magenta[/color]
+[color=cyan]Cyan[/color]
+[color=white]White[/color]
+[color=orange]Orange[/color]
+[color=gray]Gray[/color]
+
+[color=pink]Pink[/color]
+[color=purple]Purple[/color]
+[color=lime]Lime[/color]
+
+[bgcolor=cyan]Cyan Background[/bgcolor]
+[bgcolor=white]White Background[/bgcolor]
+[bgcolor=orange]Orange Background[/bgcolor]
+
+[color=red]This is [b]bold[/b], [i]italic[/i], [u]underline[/u] and [s]strikethrough[/s] within [bgcolor=white]red[/bgcolor] text.[/color]
+
+[i]italic [u]underline [s]strikethrough[/s][/u][/i] default
+
+[indent]Indented text[/indent]
+    Spaced text"
+metadata/_edit_layout_mode = 1
+metadata/_edit_use_custom_anchors = false
