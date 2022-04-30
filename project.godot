@@ -11,4 +11,9 @@ config_version=5
 [application]
 
 run/main_scene="res://test.tscn"
+run/low_processor_mode=true
 config/features=PackedStringArray("4.0")
+
+[rendering]
+
+environment/defaults/default_clear_color=Color(0.0666667, 0.0666667, 0.133333, 1)
