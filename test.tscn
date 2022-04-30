@@ -49,6 +49,8 @@ left [center]text[/center] [right]right[/right]
 [i]italic [u]underline [s]strikethrough[/s][/u][/i] default
 
 [indent]Indented text[/indent]
-    Spaced text"
+    Spaced text
+
+[url]https://example.com[/url]"
 metadata/_edit_layout_mode = 1
 metadata/_edit_use_custom_anchors = false

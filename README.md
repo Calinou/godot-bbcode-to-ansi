@@ -17,6 +17,8 @@ Not functional on Windows 10 and later yet, as Godot doesn't enable virtual term
   - True color ANSI codes could be supported, but terminal support for them is not universal due to macOS's Terminal.app not supporting truecolor.
     Therefore, some named colors are approximated with a 256-color palette optimized for readability on dark and light backgrounds.
 - `[fgcolor]` (redacted text) emulation using the same color as foreground and background.
+- `[url]` (unnamed URLs only). This works by stripping the tag and letting the terminal recognize URLs as-is.
+  - `[url=...]` is not supported as terminal support for it isn't widespread enough as of April 2022.
 
 For tags other than `[color]`, `[bgcolor]` and `[fgcolor]`, tags can be contained within each other and formatting will be preserved as done in RichTextLabel.
 For color tags, it's possible to get the same visual appearance without nesting tags (but it may be less convenient to script on your end).

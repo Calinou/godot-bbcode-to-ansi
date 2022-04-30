@@ -39,6 +39,13 @@ func bbcode_to_ansi(p_bbcode: String) -> String:
 			.replace("[right]", "\n\t\t\t\t\t\t")
 			.replace("[/right]", "")
 			
+			# URL (link).
+			# Only unnamed URLs can be universally supported in terminals (by letting the terminal
+			# recognize it as-is). As of April 2022, support for named URLs is still in progress
+			# for many popular terminals.
+			.replace("[url]", "")
+			.replace("[/url]", "")
+			
 			# Text color.
 			.replace("[color=black]", "\u001b[30m")
 			.replace("[color=red]", "\u001b[91m")
